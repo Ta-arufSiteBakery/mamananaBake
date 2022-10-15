@@ -146,15 +146,15 @@
                 <div class=" col m6 s12 light" data-aos="fade-up" data-aos-duration="1200">
                     <p>Brownies Legit</p>
                     <div class="progress">
-                        <div class="determinate amber lighten-1" style="width: 90%;"></div>
+                        <div class="determinate grey darken-2" style="width: 90%;"></div>
                     </div>
                     <p>Lekker Hollad</p>
                     <div class="progress">
-                        <div class="determinate amber lighten-1" style="width: 70%;"></div>
+                        <div class="determinate grey darken-2" style="width: 70%;"></div>
                     </div>
                     <p>Basque Burnt Cheesecake</p>
                     <div class="progress">
-                        <div class="determinate amber lighten-1" style="width: 97%;"></div>
+                        <div class="determinate grey darken-2" style="width: 97%;"></div>
                     </div>
                 </div>
             </div>
@@ -433,10 +433,10 @@
 
 
 
-    <section>
+    <section class="scrollspy" id="contact">
         <div class="header">
             <div class="container">
-                <h3 class="light grey-text center ">Pesan</h3>
+                <h3 class="light grey-text text-darken-3 center customPesan">Pesan</h3>
                 <div class="row">
                     <div class="col s12 m5">
                         <div class="card-panel amber lighten-3 center text-darken-3">
