@@ -27,6 +27,7 @@ body {
 .customImg {
     height: 250px !important;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .clients img {

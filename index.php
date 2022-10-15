@@ -466,7 +466,7 @@
                                     <label for="name">Nama Lengkap</label>
                                 </div>
                                 <div class="input-field">
-                                    <input type="tel" name="phone" id="phone" required class="validate">
+                                    <input type="tel" name="phone" id="phone" required minlength="10" class="validate">
                                     <label for="phone">No. Hp</label>
                                 </div>
                                 <div class="input-field">
