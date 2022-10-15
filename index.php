@@ -213,27 +213,41 @@
                 <h3 class="light center grey-text text-darken-3">Layanan</h3>
                 <div class="col m4 s12" data-aos="fade-up" data-aos-duration="500">
                     <div class="card-panel center amber lighten-1">
-                        <i class="material-icons medium">restaurant</i>
-                        <h5>Makan di Tempat</h5>
-                        <p>Anda bisa langsung hadir ke Tempat Kami untuk menambah sensasi makan di keramaian, kami buka
-                            setiap hari dari jam 8 pagi - jam 9 malam, lokasi sebelah (patokan lokasi) Sidoarjo Jawa
-                            Timur</p>
+                        <i class="material-icons medium">store</i>
+                        <h5>Pesan Langsung</h5>
+                        <p>
+                            <?php
+                                $lokasi=fopen("data/layanan/toko/text.txt", "r");
+                                echo fgets($lokasi);
+                                fclose($lokasi);
+                            ?>
+                        </p>
                     </div>
                 </div>
                 <div class="col m4 s12" data-aos="fade-right" data-aos-duration="1200">
                     <div class="card-panel center amber lighten-1">
                         <i class="material-icons medium">two_wheeler</i>
                         <h5>Pesan Jasa Online</h5>
-                        <p>Anda juga bisa memesan via online menggunakan jasa Gojek, Grab dan Gofood. Kami tidak ikut
-                            campur mengenai ongkir (ogkos kirim).</p>
+                        <p>
+                            <?php
+                                $lokasi=fopen("data/layanan/online/text.txt", "r");
+                                echo fgets($lokasi);
+                                fclose($lokasi);
+                            ?>
+                        </p>
                     </div>
                 </div>
                 <div class="col m4 s12" data-aos="fade-down" data-aos-duration="1500">
                     <div class="card-panel center amber lighten-1">
                         <i class="material-icons medium">hail</i>
                         <h5>Kami Antar Sendiri</h5>
-                        <p>Kami juga siap mengantar sendiri ke tampat anda, anda tinggal klik tombol pesan di atas dan
-                            memasukkan nama lengkap, alamat lengkap, menu pesanan, jumlah dan no hp.</p>
+                        <p>
+                            <?php
+                                $lokasi=fopen("data/layanan/antar/text.txt", "r");
+                                echo fgets($lokasi);
+                                fclose($lokasi);
+                            ?>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -258,9 +272,22 @@
                             <span class="card-title nMenu"></span>
                         </div>
                         <div class="card-content">
-                            <h6><span class="bold">Brownies Legit</span> berisi penjelasan tentang product.</h6>
-                            <h6 class="teal-text text-darken-2 bold">Rp7.000 <span class="harga"><s>Rp10.000</s></span>
-                                <span class="diskon">-30%</span>
+                            <h6>
+                                <span class="bold">Brownies Legit</span>
+                                <?php
+                                    $lokasi=fopen("data/menu/brownies/text.txt", "r");
+                                    echo fgets($lokasi);
+                                    fclose($lokasi);
+                                ?>
+                            </h6>
+                            <h6 class="teal-text text-darken-2 bold">
+                                <?php
+                                    $lokasi=fopen("data/menu/brownies/harga.txt", "r");
+                                    echo fgets($lokasi);
+                                    fclose($lokasi);
+                                ?>
+                                <!-- <span class="harga"><s>Rp10.000</s></span>
+                                <span class="diskon">-30%</span> -->
                             </h6>
                         </div>
                         <div class="card-action center">
@@ -277,9 +304,22 @@
                             <span class="card-title nMenu"></span>
                         </div>
                         <div class="card-content">
-                            <h6><span class="bold">Lekker Hollad</span> berisi penjelasan tentang product..</h6>
-                            <h6 class="teal-text text-darken-2 bold">Rp7.000 <span class="harga"><s>Rp10.000</s></span>
-                                <span class="diskon">-30%</span>
+                            <h6>
+                                <span class="bold">Lekker Hollad</span>
+                                <?php
+                                    $lokasi=fopen("data/menu/lekker/text.txt", "r");
+                                    echo fgets($lokasi);
+                                    fclose($lokasi);
+                                ?>
+                            </h6>
+                            <h6 class="teal-text text-darken-2 bold">
+                                <?php
+                                    $lokasi=fopen("data/menu/lekker/harga.txt", "r");
+                                    echo fgets($lokasi);
+                                    fclose($lokasi);
+                                ?>
+                                <!-- <span class="harga"><s>Rp10.000</s></span>
+                                <span class="diskon">-30%</span> -->
                             </h6>
                         </div>
                         <div class="card-action center">
@@ -296,10 +336,22 @@
                             <span class="card-title nMenu"></span>
                         </div>
                         <div class="card-content">
-                            <h6><span class="bold">Basque Burnt Cheesecake</span> berisi penjelasan tentang product.
+                            <h6>
+                                <span class="bold">Basque Burnt Cheesecake</span>
+                                <?php
+                                    $lokasi=fopen("data/menu/basque/text.txt", "r");
+                                    echo fgets($lokasi);
+                                    fclose($lokasi);
+                                ?>
                             </h6>
-                            <h6 class="teal-text text-darken-2 bold">Rp12.000 <span class="harga"><s>Rp15.000</s></span>
-                                <span class="diskon">-20%</span>
+                            <h6 class="teal-text text-darken-2 bold">
+                                <?php
+                                    $lokasi=fopen("data/menu/basque/harga.txt", "r");
+                                    echo fgets($lokasi);
+                                    fclose($lokasi);
+                                ?>
+                                <!-- <span class="harga"><s>Rp15.000</s></span>
+                                <span class="diskon">-20%</span> -->
                             </h6>
                         </div>
                         <div class="card-action center">
