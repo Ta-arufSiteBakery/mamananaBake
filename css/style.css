@@ -4,8 +4,7 @@ body {
 }
 
 .slider h3,
-.slider h5,
-.clients h3 {
+.slider h5 {
     text-shadow: 2px 2px 10px rgba(241, 30, 30, 0.5);
 }
 
@@ -31,7 +30,7 @@ body {
 
 .clients img {
     max-width: 150px;
-    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+    /* filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)); */
 }
 
 section,
