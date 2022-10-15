@@ -86,33 +86,37 @@
     <div class="slider scrollspy" id="home">
         <ul class="slides s12">
             <li>
-                <img src="img/slider/3.jpg" width="300" height="200">
+                <img src="img/slider/4.jpg" class="brightness">
+                <div class="caption center-align">
+                    <h3>Selamat Datang di Mamanana's Bake</h3>
+                    <h5 class="light grey-text text-lighten-3">Spesialis Bakery</h5>
+                    <h5 class="light grey-text text-lighten-3">Berpengalaman dan Terpercaya</h5>
+                    <h5 class="light grey-text text-lighten-3">Mari lihat menunya!</h5>
+                </div>
             </li>
             <li>
                 <img src="img/slider/1.jpg" class="brightness">
                 <div class="caption right-align">
                     <h3>Brownies Legit</h3>
-                    <h5 class="light grey-text text-lighten-3">Dibuat Dari Tepung Pilihan</h5>
-                    <h5 class="light grey-text text-lighten-3">Perpaduan Tepung, mentega dan susu membuat Brownies</h5>
-                    <h5 class="light grey-text text-lighten-3">Terasa lembut dijamin anda ketagihan</h5>
+                    <h5 class="light grey-text text-lighten-3">Nikmatnya Belgian Dark Chocolate</h5>
+                    <h5 class="light grey-text text-lighten-3">berpadu dengan gurihnya topping Almond, Keju, dan Oreo,</h5>
+                    <h5 class="light grey-text text-lighten-3">gak cukup satu potong!</h5>
                 </div>
             </li>
             <li>
                 <img src="img/slider/2.PNG" class="brightness">
                 <div class="caption left-align">
                     <h3>Lekker Holland</h3>
-                    <h5 class="light grey-text text-lighten-3">Perpaduan Tepung, mentega dan susu membuat Lekker Holland
-                    </h5>
-                    <h5 class="light grey-text text-lighten-3">Terasa lembut dijamin anda ketagihan</h5>
+                    <h5 class="light grey-text text-lighten-3">Buttery and Milky! Klasik dan gak pernah salah,</h5>
+                    <h5 class="light grey-text text-lighten-3">semua umur pasti suka! </h5>
                 </div>
             </li>
             <li>
                 <img src="img/slider/3.jpg" class="brightness">
                 <div class="caption left-align">
                     <h3>Bosque Burnet Cheesecake</h3>
-                    <h5 class="light grey-text text-lighten-3">Perpaduan Tepung, mentega dan susu membuat Bosque Burnet
-                        Cheesecake</h5>
-                    <h5 class="light grey-text text-lighten-3">Terasa lembut dijamin anda ketagihan</h5>
+                    <h5 class="light grey-text text-lighten-3">Cheese lovers mari berkumpul!</h5>
+                    <h5 class="light grey-text text-lighten-3">Teksturnya yang padat dan lembut bikin nagih deh pokoknya!</h5>
                     <h5 class="light grey-text text-lighten-3">Sudah siap menjadi langganan?.</h5>
                 </div>
             </li>
@@ -439,17 +443,17 @@
                                 </a>
                             </div>
 
-                            <p>Untuk pesanan cepat bisa langsung WA ke: <a
-                                    href="https://wa.me/6281907150504?text=Halo%20Soneta%0aSaya%20mau%20pesan%20makan%20dong">081907150504</a>
+                            <p>
+                                Ikuti kami di media Sosial, untuk mendapatkan info diskon dan giveaway
                             </p>
                         </div>
-                        <ul class="collection with-header">
-                            <li class="collection-header amber lighten-3">
+                        <ul class="collection with-header" style="border: 1px solid #ffca28; box-shadow: 1px 1px 5px gray;">
+                            <li class="collection-header amber lighten-3" style="border: 1px solid #ffca28;">
                                 <h4>Toko Kami</h4>
                             </li>
-                            <li class="collection-item amber lighten-3">Mamanana's Bake</li>
-                            <li class="collection-item amber lighten-3">Perum Raja Safira Sepande</li>
-                            <li class="collection-item amber lighten-3">Sidoarjo Jawa Timur</li>
+                            <li class="collection-item amber lighten-3" style="border: 1px solid #ffca28;">Mamanana's Bake</li>
+                            <li class="collection-item amber lighten-3" style="border: 1px solid #ffca28;">Perum King Safira Sepande</li>
+                            <li class="collection-item amber lighten-3" style="border: 1px solid #ffca28;">Sidoarjo Jawa Timur</li>
                         </ul>
                     </div>
 
@@ -526,8 +530,7 @@
 
 
                 <p class="grey-text text-darken-2">&copy;Copyright 2022 | dibuat dengan <i
-                        class="bi bi-heart-fill red-text"></i> by. <a href="#" target="__blank">Web Programing 7 <i
-                            class="bi bi-instagram red-text"></i></a></p>
+                        class="bi bi-heart-fill red-text"></i> by. <a href="#" target="__blank">Tim WP7</a></p>
                 <a href="#" target="__blank" class="btn red darken-1"><i class="bi bi-play-fill"></i> Subscribe Chanel
                     Kami</a>
             </footer>
