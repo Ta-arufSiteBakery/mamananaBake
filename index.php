@@ -127,10 +127,20 @@
                 <h3 class="center light grey-text text-darken-3">Tentang Kami</h3>
                 <div class="col m6 s12 light" data-aos="fade-down" data-aos-duration="1000">
                     <h5>Kami Profesional</h5>
-                    <p>Hadir di tengah-tengah masyarakat Sidoarjo, Mamanana's Bake menyediakan beberapa jenis Bakery
-                        yang tentunya membuat ketagihan seperti, Brownies Legit, Lekker Hollad dan Basque Burnt
-                        Cheesecake.</p>
-                    <p>Kami buka dari jam 8 pagi - 9 malam, Lokasi sebelah (Patokan lokasi) Sidoarjo Jawa Timur.
+                    <p>
+                        <?php
+                            $profile=fopen("data/about/profile/profile.txt", "r");
+                            echo fgets($profile);
+                            fclose($profile);
+                        ?>
+                    </p>
+
+                    <p>
+                        <?php
+                            $lokasi=fopen("data/about/lokasi/lokasi.txt", "r");
+                            echo fgets($lokasi);
+                            fclose($lokasi);
+                        ?>
                     </p>
                 </div>
                 <div class=" col m6 s12 light" data-aos="fade-up" data-aos-duration="1200">
