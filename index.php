@@ -38,6 +38,10 @@
     <!-- icon -->
     <link rel="shortcut icon" href="img/icon/icon.jpg">
 
+
+    <!-- awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -412,79 +416,7 @@
 
 
 
-
-    <!-- contact -->
-    <!-- <section class="contact scrollspy amber lighten-1" id="contact">
-        <div class="container">
-            <h3 class="light grey-text center">Pesan</h3>
-            <div class="row">
-                <div class="col s12 m5">
-                    <div class="card-panel amber lighten-3 center text-darken-3">
-                        
-                        <h5>Contact</h5>
-                        <p>Untuk pesanan cepat bisa langsung WA ke: <a
-                                href="https://wa.me/6281907150504?text=Halo%20Soneta%0aSaya%20mau%20pesan%20makan%20dong">081907150504</a>
-                        </p>
-                    </div>
-                    <ul class="collection with-header">
-                        <li class="collection-header amber lighten-3">
-                            <h4>Toko Kami</h4>
-                        </li>
-                        <li class="collection-item amber lighten-3">Mamanana's Bake</li>
-                        <li class="collection-item amber lighten-3">Sebelah utara (patokan)</li>
-                        <li class="collection-item amber lighten-3">Jl. (nama jalan) Sidoarjo</li>
-                    </ul>
-                </div>
-
-                <div class="col s12 m7">
-                    <form name="warungSoneta">
-                        <div class="card-panel amber lighten-3">
-                            <h5>Harap isi dengan benar</h5>
-                            <div class="input-field">
-                                <input type="text" name="nama" id="name" required class="validate">
-                                <label for="name">Nama Lengkap</label>
-                            </div>
-                            <div class="input-field">
-                                <input type="tel" name="phone" id="phone" required class="validate">
-                                <label for="phone">No. Hp</label>
-                            </div>
-                            <div class="input-field">
-                                <textarea name="alamat" id="message" class="materialize-textarea" required
-                                    class="validate"></textarea>
-                                <label for="message">Alamat Lengkap</label>
-                            </div>
-                            <div class="input-field">
-                                <select required class="validate" name="pesanan">
-                                    <option value="" disabled selected>----- Menu -----</option>
-                                    <option value="Brownies Legit">Brownies Legit</option>
-                                    <option value="Lekker Holland">Lekker Holland</option>
-                                    <option value="Basque Burnt Cheesecake">Basque Burnt Cheesecake</option>
-                                </select>
-                                <label>Masukkan Pesanan Anda</label>
-                            </div>
-                            <div class="input-field">
-                                <input type="number" name="jumlah" id="jumlah" required class="validate">
-                                <label for="jumlah">Jumlah Pesanan</label>
-                            </div>
-                            <button type="submit" class="btn amber lighten-1 pesan">Pesan<i
-                                    class="material-icons right">send</i></button>
-                            <button type="submit" class="btn amber lighten-1 loding hilang">
-                                <i class="fa fa-refresh fa-spin"></i> Loading
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- akhir contact -->
-
-
-
-
-
-
-
+    <!-- pesan -->
     <section class="scrollspy" id="contact">
         <div class="header">
             <div class="container">
@@ -494,6 +426,19 @@
                         <div class="card-panel amber lighten-3 center text-darken-3">
                             <!-- <i class="material-icons medium">whatsapp</i> -->
                             <h5>Contact</h5>
+
+
+                            <div class="icons-wrapper">
+                                <a href="https://www.instagram.com/mamanana.bake/"><i class="ri-instagram-line icons fa-brands fa-instagram"></i></a>
+
+                                <a href="#"><i class="ri-facebook-circle icons fa-brands fa-facebook"></i></a>
+
+                                <a href="https://wa.me/6285730192393">
+                                    <i class="ri-whatsapp-line icons fa-brands fa-whatsapp"></i>
+                                <!-- <img src="https://img.icons8.com/office/16/000000/whatsapp--v1.png" class="ri-whatsapp-line"/> -->
+                                </a>
+                            </div>
+
                             <p>Untuk pesanan cepat bisa langsung WA ke: <a
                                     href="https://wa.me/6281907150504?text=Halo%20Soneta%0aSaya%20mau%20pesan%20makan%20dong">081907150504</a>
                             </p>
@@ -503,8 +448,8 @@
                                 <h4>Toko Kami</h4>
                             </li>
                             <li class="collection-item amber lighten-3">Mamanana's Bake</li>
-                            <li class="collection-item amber lighten-3">Sebelah utara (patokan)</li>
-                            <li class="collection-item amber lighten-3">Jl. (nama jalan) Sidoarjo</li>
+                            <li class="collection-item amber lighten-3">Perum Raja Safira Sepande</li>
+                            <li class="collection-item amber lighten-3">Sidoarjo Jawa Timur</li>
                         </ul>
                     </div>
 
@@ -575,6 +520,11 @@
         <div class="content flex">
             <!-- <p>By.Goodkatz | Free to use </p> -->
             <footer class=" white-text center">
+
+
+            
+
+
                 <p class="grey-text text-darken-2">&copy;Copyright 2022 | dibuat dengan <i
                         class="bi bi-heart-fill red-text"></i> by. <a href="#" target="__blank">Web Programing 7 <i
                             class="bi bi-instagram red-text"></i></a></p>

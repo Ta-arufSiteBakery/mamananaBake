@@ -1,6 +1,7 @@
 body {
     overflow: auto;
     margin: 0;
+    padding: 0;
 }
 
 .slider h3,
@@ -205,5 +206,46 @@ footer {
 
     h1 {
         font-size: 24px;
+    }
+}
+
+
+/* for icons */
+.icons-wrapper {
+    text-align: center;
+}
+
+.icons {
+    display: inline-block;
+    font-size: 44px;
+    animation: float 5s ease-in-out infinite;
+}
+
+.ri-facebook-circle {
+    animation-delay: 1s;
+    color: #433ac2;
+}
+
+.ri-whatsapp-line {
+    animation-delay: 2s;
+    color: #0de24d;
+}
+
+.ri-instagram-line {
+    animation-delay: 3s;
+    color: #f76402;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
     }
 }
