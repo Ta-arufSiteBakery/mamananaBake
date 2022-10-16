@@ -197,7 +197,8 @@
         <div class="parallax-container scrollspy" id="clients">
             <!-- <div class="parallax"><img src="img/slider/WS.png"></div> -->
             <div class="container clients">
-                <h3 class="light center grey-text text-darken-3">Dukungan</h3>
+                <h5 class="light center grey-text text-darken-3">Dukungan</h5>
+                <h3 class="light center grey-text text-darken-3" style="padding-bottom:20px">Pengiriman</h3>
                 <div class="row">
                     <div class="col m4 s12 center clientsMobile" data-aos="fade-right" data-aos-duration="500">
                         <a href="#"><img src="img/clients/gojek.png" alt="gojek"></a>
@@ -225,11 +226,11 @@
                 <h3 class="light center grey-text text-darken-3">Layanan</h3>
                 <div class="col m4 s12" data-aos="fade-up" data-aos-duration="500">
                     <div class="card-panel center amber lighten-1">
-                        <i class="material-icons medium">store</i>
-                        <h5>Pesan Langsung</h5>
+                    <i class="material-icons medium">phone_android</i>
+                        <h5>Pesan di Website Kami</h5>
                         <p>
                             <?php
-                                $lokasi=fopen("data/layanan/toko/text.txt", "r");
+                                $lokasi=fopen("data/layanan/antar/text.txt", "r");
                                 echo fgets($lokasi);
                                 fclose($lokasi);
                             ?>
@@ -250,12 +251,12 @@
                     </div>
                 </div>
                 <div class="col m4 s12" data-aos="fade-down" data-aos-duration="1500">
-                    <div class="card-panel center amber lighten-1">
-                        <i class="material-icons medium">phone_android</i>
-                        <h5>Pesan di Website Kami</h5>
+                    <div class="card-panel center amber lighten-1">                
+                        <i class="material-icons medium">hail</i>
+                        <h5>Kami Antar Sendiri</h5>
                         <p>
                             <?php
-                                $lokasi=fopen("data/layanan/antar/text.txt", "r");
+                                $lokasi=fopen("data/layanan/toko/text.txt", "r");
                                 echo fgets($lokasi);
                                 fclose($lokasi);
                             ?>
