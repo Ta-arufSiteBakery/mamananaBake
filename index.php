@@ -56,7 +56,7 @@
                 <div class="nav-wrapper">
                     <a href="#home" class="brand-logo grey-text text-darken-3">Mamanana's Bake</a>
                     <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
+                    <ul class="right hide-on-med-and-down customFont">
                         <li><a href="#about" class="grey-text text-darken-3">Tentang Kami</a></li>
                         <li><a href="#clients" class="grey-text text-darken-3">Dukungan</a></li>
                         <li><a href="#servises" class="grey-text text-darken-3">Layanan</a></li>
@@ -206,7 +206,7 @@
                         <a href="#"><img src="img/clients/grab.png" alt="grab"></a>
                     </div>
                     <div class="col m4 s12 center clientsMobile" data-aos="fade-up" data-aos-duration="1500">
-                        <a href="#"><img src="img/clients/gofood.png" alt="gofood"></a>
+                        <a href="#"><img src="img/clients/jnt.png" alt="jnt"></a>
                     </div>
                 </div>
             </div>
@@ -251,8 +251,8 @@
                 </div>
                 <div class="col m4 s12" data-aos="fade-down" data-aos-duration="1500">
                     <div class="card-panel center amber lighten-1">
-                        <i class="material-icons medium">hail</i>
-                        <h5>Kami Antar Sendiri</h5>
+                        <i class="material-icons medium">phone_android</i>
+                        <h5>Pesan di Website Kami</h5>
                         <p>
                             <?php
                                 $lokasi=fopen("data/layanan/antar/text.txt", "r");
@@ -292,7 +292,7 @@
                                     fclose($lokasi);
                                 ?>
                             </h6>
-                            <h6 class="teal-text text-darken-2 bold">
+                            <h6 class="grey-text text-darken-3 bold">
                                 <?php
                                     $lokasi=fopen("data/menu/brownies/harga.txt", "r");
                                     echo fgets($lokasi);
@@ -325,7 +325,7 @@
                                     fclose($lokasi);
                                 ?>
                             </h6>
-                            <h6 class="teal-text text-darken-2 bold">
+                            <h6 class="grey-text text-darken-3 bold">
                                 <?php
                                     $lokasi=fopen("data/menu/lekker/harga.txt", "r");
                                     echo fgets($lokasi);
@@ -357,7 +357,7 @@
                                     fclose($lokasi);
                                 ?>
                             </h6>
-                            <h6 class="teal-text text-darken-2 bold">
+                            <h6 class="grey-text text-darken-3 bold">
                                 <?php
                                     $lokasi=fopen("data/menu/basque/harga.txt", "r");
                                     echo fgets($lokasi);
