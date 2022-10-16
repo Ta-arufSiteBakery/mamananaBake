@@ -476,12 +476,13 @@
                                     <label for="phone">No. Hp</label>
                                 </div>
                                 <div class="input-field">
-                                    <textarea name="alamat" id="message" class="materialize-textarea" required
-                                        class="validate" minlength="10" autocomplete="off"></textarea>
+                                    <!-- <textarea name="alamat" id="message" class="materialize-textarea" required
+                                        class="validate" minlength="10" autocomplete="off"></textarea> -->
+                                    <input type="text" name="alamat" id="message" required class="validate" autocomplete="off" minlength="10">
                                     <label for="message">Alamat Lengkap</label>
                                 </div>
                                 <div class="input-field">
-                                    <select required class="validate" name="pesanan">
+                                    <select required class="validate" name="pesanan" >
                                         <option value="" disabled selected>----- Menu -----</option>
                                         <option value="Brownies Legit">Brownies Legit</option>
                                         <option value="Lekker Holland">Lekker Holland</option>
