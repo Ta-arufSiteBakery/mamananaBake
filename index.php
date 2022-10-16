@@ -273,7 +273,7 @@
         <div class="container">
             <h3 class="light center grey-text text-darken-3">Menu</h3>
             <div class="row">
-                <div class="col m4 s12">
+                <div class="col m4 s12" data-aos="zoom-in" data-aos-duration="500">
                     <div class="card amber lighten-3">
                         <div class="card-image">
                             <img src="img/menu/1.jpg" alt="menu1" height="300">
@@ -305,7 +305,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col m4 s12">
+
+                <div class="col m4 s12" data-aos="zoom-in-up" data-aos-duration="700">
                     <div class="card amber lighten-3">
                         <div class="card-image">
                             <img src="img/menu/2.jpg" alt="menu2" height="300">
@@ -337,7 +338,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col m4 s12">
+                <div class="col m4 s12" data-aos="zoom-in-down" data-aos-duration="1000">
                     <div class="card amber lighten-3">
                         <div class="card-image">
                             <img src="img/menu/3.jpg" alt="menu2" height="300">
