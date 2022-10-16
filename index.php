@@ -116,7 +116,7 @@
                 </div>
             </li>
             <li>
-                <img src="img/slider/4.png" class="brightness">
+                <img src="img/slider/4.jpg" class="brightness">
                 <div class="caption left-align">
                     <h3>Basque Burnt Cheesecake</h3>
                     <h5 class="light grey-text text-lighten-3">Cheese lovers mari berkumpul!</h5>
