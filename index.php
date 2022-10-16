@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="color-scheme" content="light">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,6 +42,9 @@
 
     <!-- awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- <link rel="stylesheet" href="css/main.scss"> -->
 
 </head>
 
@@ -125,6 +129,15 @@
     <!-- akhir slider -->
 
 
+<!-- bismillah dark mode -->
+    <div>
+        <select id="theme" onChange="switchTheme()">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </select>
+        <br><br><br><br>
+    </div>
+<!-- bismillah dark mode -->
 
 
 
@@ -383,30 +396,30 @@
         <div class="container">
             <h3 class="light center grey-text text-darken-3">Galeri</h3>
             <div class="row">
-                <div class="col m3 s12" data-aos="flip-left" data-aos-duration="500">
+                <div class="col m3 s12">
                     <img src="img/galeri/1.jpg" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="flip-right" data-aos-duration="700">
+                <div class="col m3 s12">
                     <img src="img/galeri/2.jpg" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="flip-up" data-aos-duration="1000">
+                <div class="col m3 s12">
                     <img src="img/galeri/3.png" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="flip-down" data-aos-duration="1200">
+                <div class="col m3 s12">
                     <img src="img/galeri/4.jpg" class="responsive-img materialboxed customImg">
                 </div>
             </div>
             <div class="row">
-                <div class="col m3 s12" data-aos="flip-up" data-aos-duration="500">
+                <div class="col m3 s12">
                     <img src="img/galeri/5.jpg" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="flip-left" data-aos-duration="700">
+                <div class="col m3 s12">
                     <img src="img/galeri/6.png" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="flip-down" data-aos-duration="1000">
+                <div class="col m3 s12">
                     <img src="img/galeri/7.jpg" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="flip-right" data-aos-duration="1200">
+                <div class="col m3 s12">
                     <img src="img/galeri/8.jpg" class="responsive-img materialboxed customImg">
                 </div>
             </div>
@@ -569,7 +582,12 @@
 
 
 
-
+<script>
+    var app = document.getElementsByTagName("BODY")[0];
+    if (localStorage.lightMode == "dark") {
+        app.setAttribute("light-mode", "dark");
+    }
+</script>
 
 
 

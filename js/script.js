@@ -73,3 +73,7 @@ form.addEventListener('submit', e => {
 
 
 
+function switchTheme() {
+  const theme = document.getElementById("theme").value;
+  document.getElementsByTagName("meta")[2].content = theme;
+}
