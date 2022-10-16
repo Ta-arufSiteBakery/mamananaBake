@@ -90,7 +90,7 @@
     <div class="slider scrollspy" id="home">
         <ul class="slides s12">
             <li>
-                <img src="img/slider/4.jpg" class="brightness">
+                <img src="img/slider/1.jpg" class="brightness">
                 <div class="caption center-align">
                     <h3>Selamat Datang di Mamanana's Bake</h3>
                     <h5 class="light grey-text text-lighten-3">Spesialis Bakery</h5>
@@ -99,7 +99,7 @@
                 </div>
             </li>
             <li>
-                <img src="img/slider/1.jpg" class="brightness">
+                <img src="img/slider/2.jpg" class="brightness">
                 <div class="caption right-align">
                     <h3>Brownies Legit</h3>
                     <h5 class="light grey-text text-lighten-3">Nikmatnya Belgian Dark Chocolate</h5>
@@ -108,7 +108,7 @@
                 </div>
             </li>
             <li>
-                <img src="img/slider/2.PNG" class="brightness">
+                <img src="img/slider/3.jpg" class="brightness">
                 <div class="caption left-align">
                     <h3>Lekker Holland</h3>
                     <h5 class="light grey-text text-lighten-3">Buttery and Milky! Klasik dan gak pernah salah,</h5>
@@ -116,9 +116,9 @@
                 </div>
             </li>
             <li>
-                <img src="img/slider/3.jpg" class="brightness">
+                <img src="img/slider/4.png" class="brightness">
                 <div class="caption left-align">
-                    <h3>Bosque Burnet Cheesecake</h3>
+                    <h3>Basque Burnt Cheesecake</h3>
                     <h5 class="light grey-text text-lighten-3">Cheese lovers mari berkumpul!</h5>
                     <h5 class="light grey-text text-lighten-3">Teksturnya yang padat dan lembut bikin nagih deh pokoknya!</h5>
                     <h5 class="light grey-text text-lighten-3">Sudah siap menjadi langganan?.</h5>
@@ -138,7 +138,7 @@
             <div class="row">
                 <h3 class="center light grey-text text-darken-3">Tentang Kami</h3>
                 <div class="col m6 s12 light" data-aos="fade-down" data-aos-duration="1000">
-                    <h5>Kami Profesional</h5>
+                    <h5>Mamanana's Bake</h5>
                     <p>
                         <?php
                             $profile=fopen("data/about/profile/profile.txt", "r");
@@ -467,7 +467,7 @@
                             <div class="card-panel amber lighten-3">
                                 <h5>Harap isi dengan benar</h5>
                                 <div class="input-field">
-                                    <input type="text" name="nama" id="name" required class="validate" autocomplete="off">
+                                    <input type="text" name="nama" id="name" required class="validate" autocomplete="off" minlength="4">
                                     <label for="name">Nama Lengkap</label>
                                 </div>
                                 <div class="input-field">
@@ -476,7 +476,7 @@
                                 </div>
                                 <div class="input-field">
                                     <textarea name="alamat" id="message" class="materialize-textarea" required
-                                        class="validate" autocomplete="off"></textarea>
+                                        class="validate" minlength="10" autocomplete="off"></textarea>
                                     <label for="message">Alamat Lengkap</label>
                                 </div>
                                 <div class="input-field">
