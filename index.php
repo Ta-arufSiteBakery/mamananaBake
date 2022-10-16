@@ -382,30 +382,30 @@
         <div class="container">
             <h3 class="light center grey-text text-darken-3">Galeri</h3>
             <div class="row">
-                <div class="col m3 s12" data-aos="fade-right" data-aos-duration="500">
+                <div class="col m3 s12" data-aos="flip-left" data-aos-duration="500">
                     <img src="img/galeri/1.jpg" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="fade-right" data-aos-duration="500">
+                <div class="col m3 s12" data-aos="flip-right" data-aos-duration="700">
                     <img src="img/galeri/2.jpg" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="fade-right" data-aos-duration="500">
+                <div class="col m3 s12" data-aos="flip-up" data-aos-duration="1000">
                     <img src="img/galeri/3.png" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="fade-right" data-aos-duration="500">
+                <div class="col m3 s12" data-aos="flip-down" data-aos-duration="1200">
                     <img src="img/galeri/4.jpg" class="responsive-img materialboxed customImg">
                 </div>
             </div>
             <div class="row">
-                <div class="col m3 s12" data-aos="fade-right" data-aos-duration="500">
+                <div class="col m3 s12" data-aos="flip-up" data-aos-duration="500">
                     <img src="img/galeri/5.jpg" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="fade-right" data-aos-duration="500">
+                <div class="col m3 s12" data-aos="flip-left" data-aos-duration="700">
                     <img src="img/galeri/6.png" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="fade-right" data-aos-duration="500">
+                <div class="col m3 s12" data-aos="flip-down" data-aos-duration="1000">
                     <img src="img/galeri/7.jpg" class="responsive-img materialboxed customImg">
                 </div>
-                <div class="col m3 s12" data-aos="fade-right" data-aos-duration="500">
+                <div class="col m3 s12" data-aos="flip-right" data-aos-duration="1200">
                     <img src="img/galeri/8.jpg" class="responsive-img materialboxed customImg">
                 </div>
             </div>
@@ -562,7 +562,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
-            once: true,
+            // once: true,
         });
     </script>
 
