@@ -467,16 +467,16 @@
                             <div class="card-panel amber lighten-3">
                                 <h5>Harap isi dengan benar</h5>
                                 <div class="input-field">
-                                    <input type="text" name="nama" id="name" required class="validate">
+                                    <input type="text" name="nama" id="name" required class="validate" autocomplete="off">
                                     <label for="name">Nama Lengkap</label>
                                 </div>
                                 <div class="input-field">
-                                    <input type="tel" name="phone" id="phone" required minlength="10" class="validate">
+                                    <input type="tel" name="phone" id="phone" required minlength="10" class="validate" autocomplete="off">
                                     <label for="phone">No. Hp</label>
                                 </div>
                                 <div class="input-field">
                                     <textarea name="alamat" id="message" class="materialize-textarea" required
-                                        class="validate"></textarea>
+                                        class="validate" autocomplete="off"></textarea>
                                     <label for="message">Alamat Lengkap</label>
                                 </div>
                                 <div class="input-field">
@@ -489,7 +489,7 @@
                                     <label>Masukkan Pesanan Anda</label>
                                 </div>
                                 <div class="input-field">
-                                    <input type="number" name="jumlah" id="jumlah" required class="validate">
+                                    <input type="number" name="jumlah" id="jumlah" required class="validate" autocomplete="off">
                                     <label for="jumlah">Jumlah Pesanan</label>
                                 </div>
                                 <button type="submit" class="btn amber lighten-1 pesan">Pesan<i
