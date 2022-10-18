@@ -195,10 +195,9 @@
     <!-- clients -->
     <section class="clients amber lighten-1">
         <div class="parallax-container scrollspy" id="clients">
-            <!-- <div class="parallax"><img src="img/slider/WS.png"></div> -->
             <div class="container clients">
-                <h5 class="light center grey-text text-darken-3">Dukungan</h5>
-                <h3 class="light center grey-text text-darken-3" style="padding-bottom:20px">Pengiriman</h3>
+                <h5 class="light center grey-text text-darken-3" style="margin-bottom:-30px">Dukungan</h5>
+                <h3 class="light center grey-text text-darken-3" style="padding-bottom:20px margin-top:-20px">Pengiriman</h3>
                 <div class="row">
                     <div class="col m4 s12 center clientsMobile" data-aos="fade-right" data-aos-duration="500">
                         <a href="#"><img src="img/clients/gojek.png" alt="gojek"></a>
@@ -537,7 +536,7 @@
 
 
                 <p class="grey-text text-darken-2">&copy;Copyright 2022 | dibuat dengan <i
-                        class="bi bi-heart-fill red-text"></i> by. <a href="#" target="__blank">Tim WP7</a></p>
+                        class="bi bi-heart-fill red-text"></i> by. <a href="#" target="__blank" style="font-weight:bold;">Tim WP7</a></p>
                 <a href="#" target="__blank" class="btn red darken-1"><i class="bi bi-play-fill"></i> Subscribe Chanel
                     Kami</a>
             </footer>
