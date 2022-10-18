@@ -1,9 +1,9 @@
 # Web Programing 7
 
 ## Create with love by
-1. Bagus Untoro
-2. Nurinawati Atika Rahmi
-3. Rhomy Wahyudies Santoso
+1. Bagus Untoro [Bagus](https://instagram.com/untoro.bagus?igshid=YmMyMTA2M2Y=)
+2. Nurinawati Atika Rahmi [Nurina](https://instagram.com/nurinaw7?igshid=YmMyMTA2M2Y=)
+3. Rhomy Wahyudies Santoso [Rhomy](https://instagram.com/wsrhmy?igshid=YmMyMTA2M2Y=)
 
 📦MamananaBake
  ┣ 📂css
