@@ -536,7 +536,7 @@
 
 
                 <p class="grey-text text-darken-2">&copy;Copyright 2022 | dibuat dengan <i
-                        class="bi bi-heart-fill red-text"></i> by. <a href="#" target="__blank" style="font-weight:bold;">Tim WP7</a></p>
+                        class="bi bi-heart-fill red-text"></i> by. <a href="https://github.com/Ta-arufSiteBakery/mamananaBake" target="__blank" style="font-weight:bold;">Tim WP7</a></p>
                 <a href="#" target="__blank" class="btn red darken-1"><i class="bi bi-play-fill"></i> Subscribe Chanel
                     Kami</a>
             </footer>

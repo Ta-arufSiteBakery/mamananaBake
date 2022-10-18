@@ -1,6 +1,6 @@
-## Web Programing 7
+# Web Programing 7
 
-# Create with love by
+## Create with love by
 1. Bagus Untoro
 2. Nurinawati Atika Rahmi
 3. Rhomy Wahyudies Santoso
