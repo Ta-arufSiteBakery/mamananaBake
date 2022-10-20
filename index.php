@@ -440,7 +440,7 @@
                             <div class="icons-wrapper">
                                 <a href="https://www.instagram.com/mamanana.bake/"><i class="ri-instagram-line icons fa-brands fa-instagram"></i></a>
 
-                                <a href="#"><i class="ri-facebook-circle icons fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/mamanana.bake/"><i class="ri-facebook-circle icons fa-brands fa-facebook"></i></a>
 
                                 <a href="https://wa.me/6285730192393">
                                     <i class="ri-whatsapp-line icons fa-brands fa-whatsapp"></i>
@@ -536,9 +536,10 @@
 
 
                 <p class="grey-text text-darken-2">&copy;Copyright 2022 | dibuat dengan <i
-                        class="bi bi-heart-fill red-text"></i> by. <a href="https://github.com/Ta-arufSiteBakery/mamananaBake" target="__blank" style="font-weight:bold;">Tim WP7</a></p>
-                <a href="#" target="__blank" class="btn red darken-1"><i class="bi bi-play-fill"></i> Subscribe Chanel
+                        class="bi bi-heart-fill red-text"></i> by. <a href="https://github.com/Ta-arufSiteBakery/mamananaBake" target="__blank" style="font-weight:bold;" class="amber-text text-lighten-1">Tim WP7</a></p>
+                <a href="https://youtube.com/channel/UCRWiDu5LKDpnEJLtGyVC-fA" target="__blank" class="btn red darken-1"><i class="bi bi-play-fill"></i> Subscribe Chanel
                     Kami</a>
+                    <p class="grey-text text-darken-2">Support by. <a href="https://jagoan.cloud/" target="__blank" class="amber-text text-lighten-1">Jagoan Cloud</a></p>
             </footer>
         </div>
         <!--Content ends-->
